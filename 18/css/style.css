@@ -1,0 +1,40 @@
+.menu{
+	background: #EEE685;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 10px;
+}
+
+a:link{ /*não visitado*/
+color: #b9c941;
+text-decoration: none;
+
+}
+a: visited {/*visitados*/
+color:  #458b00
+
+}
+
+a:hover{/*passar o mouse*/}
+color: #8B4726;
+
+a:active{/*clicando*/
+color:  #FF1493;
+}
+
+img {padding: 20px; 
+border-radius: 20px;
+margin: 10px;
+ }
+
+nav { float: right; 
+font-size: 20px;
+ }
+
+ body { border: 1px solid black;
+ 	width: 1000px;
+ 	padding: 20px;
+ 	background: gray;
+
+
+ }

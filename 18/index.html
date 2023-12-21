@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Formulário</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-left">
+  <h1>FORMULÁRIOS</h1>
+
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h2>Cadastre-se</h2>
+  
+    <div class="form-group">
+      <label for="Nome">Nome:</label>
+      <input type="email" class="form-control" id="text" placeholder="Entre com o nome" name="text">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Entre com o email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Entre com a Senha" name="pwd">
+    </div>
+    
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember">  Aceito os Termos de Serviços</label>
+    </div>
+
+    <div class= "radio">
+      <label>
+        <input type="radio" name="Opcoes"> PHP
+      </label>
+      <label>
+        <input type="radio" name="Opcoes"> JAVA
+      </label>
+    
+    <button type="submit" class="btn btn-default">Enviar</button>
+  </div>
+  </form>
+    </div>
+    <div class="col-sm-6">
+      <h2>Logar</h2>
+
+<form action="/action_page.php">
+  <label for="fname"></label><br>
+  <input type="text" id="fname" name="fname" value="Digite Seu E-mail"><br>
+  <label for="lname"></label><br>
+  <input type="text" id="lname" name="lname" value="Digite sua Senha"><br><br>
+  <input type="submit" value="logar">
+    </div>
+    
+  </div>
+</div>
+
+</body>
+</html>
